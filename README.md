@@ -80,9 +80,6 @@ tareas-ug/
 - **Aparece un error en rojo:** abre la consola (`F12`), copia el mensaje y abre un *issue*.
 - **Tu campus usa otro dominio:** edita `matches` en `manifest.json` para que coincida con tu URL.
 
-## Contribuir
-
-Los *issues* y *pull requests* son bienvenidos.
 
 ## Licencia
 
