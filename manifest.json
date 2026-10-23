@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Panel de Tareas UG",
+  "version": "1.0.0",
+  "description": "Agrega al Área personal de Moodle un panel con tareas, cuestionarios y foros: próximas, atrasadas, entregadas y pendientes.",
+  "permissions": ["storage"],
+  "content_scripts": [
+    {
+      "matches": ["https://*.ug.edu.ec/my/*"],
+      "js": ["content.js"],
+      "css": ["styles.css"],
+      "run_at": "document_idle"
+    }
+  ]
+}
